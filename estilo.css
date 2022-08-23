@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(192, 192, 192);
+    height: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+input{
+    border: 2px solid black;
+}
+.btn1{
+    border: 2px solid black;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(36, 169, 221);
+    color: white;
+    box-shadow: 3px 3px black;
+}
+.main{
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    margin-top: 20px;
+}
+.col-1{
+    border: 2px solid black;
+    flex:2;
+    margin-right: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.col-2{
+    border: 2px solid black;
+    flex:1;
+    height: 150px;
+}
+.dojo{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.btn2{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 22px;
+    background-color: rgb(78, 190, 102);
+    box-shadow: 3px 3px black;
+}
+.col-22{
+    flex:1;
+    height: 150px;
+}
+.ninja{
+    height: 100px;
+    width: 150px;
+}
+.texto{
+    height: 200px;
+    width: 255px;
+    display: flex;
+    align-items:center;
+}
+.parrafo1{
+    text-align: left;
+    margin-right: 20px;
+}
+.btn{
+    background-color: rgb(255, 206, 70);
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
+span{
+    text-decoration: underline;
+    color: rgb(19, 132, 177);   
+}
